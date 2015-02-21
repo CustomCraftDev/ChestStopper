@@ -1,0 +1,19 @@
+debug: false
+msg:
+  prefix: '&7[&4&lInsomnia-GTA &5Chest Stopper&7]'
+  noperm: '&cYou do not have enough access privileges for this operation.'
+  denyopen: '&cYou do not have enough access privileges to open this Inventory.'
+  reload: '&7Config reloaded.'
+
+worlds:
+  - 'world'
+  - 'world_the_end'
+  - 'world_nether'
+  
+infos:
+  command:
+    - '/cheststopper reload'
+  permissions:
+    - 'cheststopper.update  <-- able to see the update message'
+    - 'cheststopper.reload  <-- able to use the reload command'
+    - 'cheststopper.bypass  <-- able to bypass the world restriction'

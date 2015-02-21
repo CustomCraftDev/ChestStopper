@@ -1,0 +1,12 @@
+name: ChestStopper
+main: ChestStopper
+description: requested plugin made by undeaD_D
+version: 1.0
+author: DieFriiks
+authors: [DieFriiks, undeaD_D]
+databse: false
+
+commands:
+  cheststopper:
+    usage: /cheststopper <reload>
+    description: ChestStopper commands
